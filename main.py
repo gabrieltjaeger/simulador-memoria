@@ -76,7 +76,7 @@ def otimo(numero_molduras: int, sequencia_de_acesso: list) -> int:
 
 def main():
     saida_log = ''
-    with open('arquivos/entrada/inMemoria', 'r') as arquivo:
+    with open(f'arquivos/entrada/{str(input("Insira o nome do arquivo a executar: "))}', 'r') as arquivo:
         for linha in arquivo:
             linha = linha.strip()
             linha = linha.split('|')
