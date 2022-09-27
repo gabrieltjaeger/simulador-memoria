@@ -1,6 +1,6 @@
 # Simulador de Substituição de Páginas na Memória
 Implementação de simulações de algoritmos de substituição de páginas na memória que ocorrem em um Sistema Operacional.
-Para executar o script, é necessário ter a versão mais recente do Python (3.10.7) instalada e abrir um terminal na mesma pasta que o arquivo _main.py_, e executar o comando:
+Para executar o script, é necessário ter no mínimo a versão 3.10 do Python instalada. Abra um terminal na mesma pasta que o arquivo _main.py_, e execute o comando:
 ```
 python3 main.py
 ```
